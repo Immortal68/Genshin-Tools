@@ -15,7 +15,8 @@
 **stoken**需要浏览器打开 https://user.mihoyo.com/ 并登录  
 按下键盘上的F12或右键检查，打开开发者工具，点击Console(控制台)  
 复制如下内容并粘贴输入，回车执行 
-```function getCookieMap(cookie) {
+```
+function getCookieMap(cookie) {
    let cookiePattern = /^(\S+)=(\S+)$/;
    let cookieArray = cookie.split("; ");
    let cookieMap = new Map();
@@ -55,7 +56,6 @@ fetch(url, {
 ).catch(function (err) {
    console.log('Fetch Error :-S', err);
 });
-
 ```
 按照如图位置找到**stoken**，复制即可
 ![截图](https://cdn.jsdelivr.net/gh/Immortal68/SSZ-Index/sns/example.png)

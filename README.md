@@ -57,5 +57,4 @@ fetch(url, {
    console.log('Fetch Error :-S', err);
 });
 ```
-按照如图位置找到**stoken**，复制即可
-![截图](https://cdn.jsdelivr.net/gh/Immortal68/SSZ-Index/sns/example.png)
+找到**stoken**，复制即可
